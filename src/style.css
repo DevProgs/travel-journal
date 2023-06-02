@@ -23,7 +23,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* max-width: 1200px; */
   width: 100%;
   height: 55px;
   background: var(--navbar-color);
@@ -43,6 +42,10 @@ body {
 .navbar--globe {
   width: 24px;
   height: 24px;
+}
+
+.journal-container {
+  margin: 0 auto;
 }
 
 .location {
@@ -98,7 +101,6 @@ body {
 .location--attraction {
   font-style: normal;
   font-weight: 700;
-  /* font-size: 17px; */
   font-size: 1.1rem;
   line-height: 30px;
   margin-left: 19px;
@@ -107,7 +109,6 @@ body {
 .location--date {
   font-style: normal;
   font-weight: 700;
-  /* font-size: 10.24px; */
   font-size: .65rem;
   line-height: 12px;
   margin-top: 7px;
@@ -117,34 +118,15 @@ body {
 .location--description {
   font-style: normal;
   font-weight: 400;
-  /* font-size: 10.24px; */
   font-size: .65rem;
-  /* line-height: 15px;  move to smaller screen media query */
   margin-top: 9px;
   margin-left: 19px;
 }
 
 .location--divider {
   border: 1px solid var(--divider-color);
-  /* max-width: 478px; */
-  margin: 0 auto;
-}
+ } 
 
-/* @media (max-width: 550px) {
-  body {
-    background: blue;
-  }
-} */
-
-/* @media (max-width: 550px) {
-  .location {
-    width: 550px;
-    height: 100%;
-  }
-  .location--image {
-    width: 125px;
-  }
-} */
 
 
 @media (min-width: 640px) {
