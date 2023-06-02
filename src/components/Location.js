@@ -3,7 +3,7 @@ import Indicator from '../images/indicator.svg';
 // props is pulling in the data from data.map in app.js
 const Location = (props) => {
   return (
-    <div className="journal-container">
+    <div>
       <div className="location">
         <img
           className="location--image"

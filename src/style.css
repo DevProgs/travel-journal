@@ -44,10 +44,11 @@ body {
   height: 24px;
 }
 
-.journal-container {
+.location-list {
   margin: 0 auto;
   width: 90%;
 }
+
 
 .location {
   display: flex;
