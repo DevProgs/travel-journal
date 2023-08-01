@@ -1,13 +1,11 @@
 import Navbar from './components/Navbar';
 import Location from './components/Location';
-// import './App.css';
-// import './test.css';
 import data from './data';
 
 function App() {
   // here we are mapping the data from data.js
-  const location = data.map((item) => {
-    return <Location key={item.id} item={item} />;
+  const location = data.map((item, id) => {
+    return <Location key={id} item={item} />;
   });
   return (
     <div className="App">
