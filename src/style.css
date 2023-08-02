@@ -125,7 +125,7 @@ img {
 }
 
 .location--attraction {
-  font-size: 1.1rem;
+  font-size: .85rem;
   line-height: 30px;
   margin-left: 19px;
 }
@@ -142,7 +142,9 @@ img {
 
 .location--divider {
   border: 1px solid var(--divider-color);
-  max-width: 80%;
+  width: 90%;
+  max-width: 1200px;
+  /* width: inherit; */
   margin: 0 auto;
  } 
 
@@ -171,6 +173,11 @@ img {
 }
 
 @media (min-width: 840px) {
+
+  .location--attraction {
+    font-size: 1.5rem;
+    padding-bottom: .5em;
+  }
 
   .location--info-container {
     width: 60ch;
